@@ -6,7 +6,7 @@
 		<uni-nav-bar
 			color="#333333"
 			background-color="#FFFFFF"
-			fixed="false"
+			fixed="true"
 			right-icon="scan"
 			@click-left="showCity"
 			@click-right="scan"
@@ -28,6 +28,7 @@
 				/>
 			</view>
 		</uni-nav-bar>
+		<view style="height:80px;"></view>
 		<!-- 使用非原生导航栏后需要在页面顶部占位 -->
 		<!-- #endif -->
 		<!-- 轮播图 start-->
@@ -263,13 +264,7 @@ export default {
 		uniGrid
 	},
 	created() {
-		uni.getLocation({
-			type: 'wgs84',
-			success: function(res) {
-				console.log('当前位置的经度：' + res.longitude);
-				console.log('当前位置的纬度：' + res.latitude);
-			}
-		});
+		
 	}
 };
 </script>

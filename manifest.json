@@ -69,7 +69,8 @@
             "sdkConfigs" : {
                 "speech" : {
                     "ifly" : {}
-                }
+                },
+                "maps" : {}
             },
             "orientation" : [ "portrait-primary" ]
         }

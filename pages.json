@@ -6,7 +6,7 @@
 			"style": {
 				"navigationBarTitleText": "主页",
 				"app-plus": {
-					"titleNView": false
+					"titleNView": true
 				}
 			}
 		},
