@@ -275,6 +275,7 @@ radio-group label, checkbox-group label{
 }
 .uni-card-content.image-view{
     width: 100%;
+	/* height: 20upx; */
     margin: 0;
 }
 .uni-card-content-inner {
@@ -923,15 +924,15 @@ radio-group label, checkbox-group label{
     display: flex;
     flex-direction: column;
 }
-
+/* 图片大小 */
 .image-view {
-    height: 330upx;
-    width: 330upx;
+     height: 160upx;
+     width: 330upx;
 	margin:12upx 0;
 }
-
+/* 商品大小 */
 .uni-product-image {
-    height: 330upx;
+   height: 160upx;
     width: 330upx;
 }
 
