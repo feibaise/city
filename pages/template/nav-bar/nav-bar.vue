@@ -9,7 +9,8 @@
 		<!-- #endif -->
 		<view class="uni-padding-wrap">
 			<view class="uni-helllo-text uni-common-mt">
-				本导航栏为自定义组件，并非原生导航栏。除非原生导航栏无法满足需求，否则不推荐使用自定义导航栏组件。具体参考http://ask.dcloud.net.cn/article/34921
+				本导航栏为自定义组件，并非原生导航栏。除非原生导航栏无法满足需求，否则不推荐使用自定义导航栏组件。具体参考
+				http://ask.dcloud.net.cn/article/34921
 			</view>
 			<view class="uni-title uni-center uni-common-mt">
 				基础用法
