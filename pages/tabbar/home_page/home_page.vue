@@ -60,7 +60,7 @@
 				<switch :checked="autoplay" @change="changeAutoplay" />
 			</view>
 		</view>
-		
+
 		<view class="uni-padding-wrap">
 			<view class="uni-common-mt">
 				<text>幻灯片切换时长(ms)</text>
@@ -142,6 +142,7 @@ import uniGrid from '../../../components/uni-grid.vue';
 
 export default {
 	data() {
+	    //模拟数据
 		return {
 			title: 'Hello',
 			city: '北京',
@@ -264,7 +265,7 @@ export default {
 		uniGrid
 	},
 	created() {
-		
+
 	}
 };
 </script>
